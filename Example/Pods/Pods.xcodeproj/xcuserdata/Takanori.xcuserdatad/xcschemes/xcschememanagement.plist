@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CPMenuView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>FBSnapshotTestCase.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-CPMenuView_Example.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-CPMenuView_Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>34CD2E3428AB802BACA62286FF5074B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A67455E8D36B1CB215EA18BEA30D519</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C8158AD29F7AD3213340DA158DA757B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A3A07200739AE04A1D83F8216DA0E34C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
