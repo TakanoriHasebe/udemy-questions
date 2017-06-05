@@ -1,0 +1,6 @@
+framework module Pods_SwiftHokusai {
+  umbrella header "Pods-SwiftHokusai-umbrella.h"
+
+  export *
+  module * { export * }
+}

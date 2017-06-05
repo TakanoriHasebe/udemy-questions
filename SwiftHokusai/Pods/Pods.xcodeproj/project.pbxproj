@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84776A6FADC0DA076DDFC0428F7C3BC7 /* Pods-SwiftHokusai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B2A92E1105521B8CAEA20D439BFDEB /* Pods-SwiftHokusai-dummy.m */; };
+		863FE6068BFB785EC4097B9C95931205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		939F6A4E287A79CC60B9EF1CB8D15D99 /* Hokusai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA12936A024FE98FE00802B3779FBD3 /* Hokusai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A42DE97EEA52963D795C008041738217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BE3C25C5DD2FC95AD6C8B251FC576469 /* Pods-SwiftHokusai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B233EF034E193C130EC90FF78AF4A1CE /* Pods-SwiftHokusai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4321F7F1FAFF8D0554D4633F4FCAA17 /* Hokusai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD4B2F6CF509198BA787E42F97FFB46 /* Hokusai-dummy.m */; };
+		EEBE27FBECEA3786E07CA52EEECC5432 /* Hokusai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A478D44CFA915D8299489A4A6E96A1F /* Hokusai.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA02E54F7E03747424A8104E0716EE81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BBD36E8977C1B748A4631839EF01D7;
+			remoteInfo = Hokusai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029EE3A9C10DDA5B8C163C6A536ECF7E /* Hokusai-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hokusai-prefix.pch"; sourceTree = "<group>"; };
+		2FA562C938D28EE97521AD4E95FC4299 /* Pods-SwiftHokusai-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftHokusai-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CF581AAEABD1137E5C23245E5043C0D /* Pods-SwiftHokusai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftHokusai.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E78CC79860504813999C5330D2D70E4 /* Pods_SwiftHokusai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftHokusai.framework; path = "Pods-SwiftHokusai.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B2A92E1105521B8CAEA20D439BFDEB /* Pods-SwiftHokusai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftHokusai-dummy.m"; sourceTree = "<group>"; };
+		8A478D44CFA915D8299489A4A6E96A1F /* Hokusai.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hokusai.swift; path = Classes/Hokusai.swift; sourceTree = "<group>"; };
+		9178EFA5E039FC440BADDB3E089E44F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92971DE9E72491AE24F79583B019AF60 /* Pods-SwiftHokusai-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftHokusai-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B1C0BFF4EF94D5BA934093E588B7654 /* Pods-SwiftHokusai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftHokusai.debug.xcconfig"; sourceTree = "<group>"; };
+		B032502D35027222DBDC043D42BC7244 /* Pods-SwiftHokusai-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftHokusai-acknowledgements.plist"; sourceTree = "<group>"; };
+		B233EF034E193C130EC90FF78AF4A1CE /* Pods-SwiftHokusai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftHokusai-umbrella.h"; sourceTree = "<group>"; };
+		B543A6C11D56ABA7C1320A13F39A6F79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7E834BFB88B0637973FEB72DB2F962 /* Pods-SwiftHokusai-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftHokusai-resources.sh"; sourceTree = "<group>"; };
+		D459AE6A9FCADDF725645BE8A7DDA9EA /* Hokusai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hokusai.modulemap; sourceTree = "<group>"; };
+		DA1A4866AE070F88DAC3DB7713D92473 /* Hokusai.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hokusai.xcconfig; sourceTree = "<group>"; };
+		DCA12936A024FE98FE00802B3779FBD3 /* Hokusai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hokusai-umbrella.h"; sourceTree = "<group>"; };
+		E872FEF60C78C47C68F6163120CA2436 /* Pods-SwiftHokusai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftHokusai.release.xcconfig"; sourceTree = "<group>"; };
+		FBE0FA18C97BF36920FC3A49DBA4655A /* Hokusai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hokusai.framework; path = Hokusai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD4B2F6CF509198BA787E42F97FFB46 /* Hokusai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hokusai-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35DBA4E118044558D9423099117CC5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42DE97EEA52963D795C008041738217 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75F234A2468A4F7B42ECA6C57F06058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863FE6068BFB785EC4097B9C95931205 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6EA5449B9B39A4DF11DAEB025BF214 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CC76F08A67365927F119D5823FC2E3D /* Hokusai */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1EAC15EB14A3C275B72089B717EF93DC /* Pods-SwiftHokusai */ = {
+			isa = PBXGroup;
+			children = (
+				9178EFA5E039FC440BADDB3E089E44F2 /* Info.plist */,
+				5CF581AAEABD1137E5C23245E5043C0D /* Pods-SwiftHokusai.modulemap */,
+				2FA562C938D28EE97521AD4E95FC4299 /* Pods-SwiftHokusai-acknowledgements.markdown */,
+				B032502D35027222DBDC043D42BC7244 /* Pods-SwiftHokusai-acknowledgements.plist */,
+				73B2A92E1105521B8CAEA20D439BFDEB /* Pods-SwiftHokusai-dummy.m */,
+				92971DE9E72491AE24F79583B019AF60 /* Pods-SwiftHokusai-frameworks.sh */,
+				CB7E834BFB88B0637973FEB72DB2F962 /* Pods-SwiftHokusai-resources.sh */,
+				B233EF034E193C130EC90FF78AF4A1CE /* Pods-SwiftHokusai-umbrella.h */,
+				9B1C0BFF4EF94D5BA934093E588B7654 /* Pods-SwiftHokusai.debug.xcconfig */,
+				E872FEF60C78C47C68F6163120CA2436 /* Pods-SwiftHokusai.release.xcconfig */,
+			);
+			name = "Pods-SwiftHokusai";
+			path = "Target Support Files/Pods-SwiftHokusai";
+			sourceTree = "<group>";
+		};
+		3A99A2CB63136E67F709AD423DD900ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D459AE6A9FCADDF725645BE8A7DDA9EA /* Hokusai.modulemap */,
+				DA1A4866AE070F88DAC3DB7713D92473 /* Hokusai.xcconfig */,
+				FDD4B2F6CF509198BA787E42F97FFB46 /* Hokusai-dummy.m */,
+				029EE3A9C10DDA5B8C163C6A536ECF7E /* Hokusai-prefix.pch */,
+				DCA12936A024FE98FE00802B3779FBD3 /* Hokusai-umbrella.h */,
+				B543A6C11D56ABA7C1320A13F39A6F79 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hokusai";
+			sourceTree = "<group>";
+		};
+		6E5126D48066CAF767F304783108FE0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE0FA18C97BF36920FC3A49DBA4655A /* Hokusai.framework */,
+				6E78CC79860504813999C5330D2D70E4 /* Pods_SwiftHokusai.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72B258B2D90FDF0825687CA226E9FEA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC15EB14A3C275B72089B717EF93DC /* Pods-SwiftHokusai */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0A6EA5449B9B39A4DF11DAEB025BF214 /* Pods */,
+				6E5126D48066CAF767F304783108FE0F /* Products */,
+				72B258B2D90FDF0825687CA226E9FEA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC76F08A67365927F119D5823FC2E3D /* Hokusai */ = {
+			isa = PBXGroup;
+			children = (
+				8A478D44CFA915D8299489A4A6E96A1F /* Hokusai.swift */,
+				3A99A2CB63136E67F709AD423DD900ED /* Support Files */,
+			);
+			name = Hokusai;
+			path = Hokusai;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E5437C87E0C9D32165A4084BAFE1F2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939F6A4E287A79CC60B9EF1CB8D15D99 /* Hokusai-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E005CA3C5E4C5312195C15BCA1E4886F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3C25C5DD2FC95AD6C8B251FC576469 /* Pods-SwiftHokusai-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40781E0843465208DA67B51077876C2A /* Pods-SwiftHokusai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE2A2B374845A052B843AC81DB359DD /* Build configuration list for PBXNativeTarget "Pods-SwiftHokusai" */;
+			buildPhases = (
+				C14BF200FE837F716419E218C624A625 /* Sources */,
+				E75F234A2468A4F7B42ECA6C57F06058 /* Frameworks */,
+				E005CA3C5E4C5312195C15BCA1E4886F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93E9BA396B5F50931C4479CF0DBFFF43 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftHokusai";
+			productName = "Pods-SwiftHokusai";
+			productReference = 6E78CC79860504813999C5330D2D70E4 /* Pods_SwiftHokusai.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62BBD36E8977C1B748A4631839EF01D7 /* Hokusai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2503AE4FDF4B34E5E0782E230FD940B /* Build configuration list for PBXNativeTarget "Hokusai" */;
+			buildPhases = (
+				39F21D5553D92EF8C2FC2E0A7CA6201A /* Sources */,
+				35DBA4E118044558D9423099117CC5CE /* Frameworks */,
+				4E5437C87E0C9D32165A4084BAFE1F2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hokusai;
+			productName = Hokusai;
+			productReference = FBE0FA18C97BF36920FC3A49DBA4655A /* Hokusai.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6E5126D48066CAF767F304783108FE0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62BBD36E8977C1B748A4631839EF01D7 /* Hokusai */,
+				40781E0843465208DA67B51077876C2A /* Pods-SwiftHokusai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F21D5553D92EF8C2FC2E0A7CA6201A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4321F7F1FAFF8D0554D4633F4FCAA17 /* Hokusai-dummy.m in Sources */,
+				EEBE27FBECEA3786E07CA52EEECC5432 /* Hokusai.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14BF200FE837F716419E218C624A625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84776A6FADC0DA076DDFC0428F7C3BC7 /* Pods-SwiftHokusai-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93E9BA396B5F50931C4479CF0DBFFF43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hokusai;
+			target = 62BBD36E8977C1B748A4631839EF01D7 /* Hokusai */;
+			targetProxy = AA02E54F7E03747424A8104E0716EE81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02A5ACFB6DFD147BFD54F72558E13E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E872FEF60C78C47C68F6163120CA2436 /* Pods-SwiftHokusai.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftHokusai/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftHokusai/Pods-SwiftHokusai.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftHokusai;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		389261B69DE328E3B3112F41D12A57C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1A4866AE070F88DAC3DB7713D92473 /* Hokusai.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Hokusai/Hokusai-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hokusai/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hokusai/Hokusai.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Hokusai;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A87667FFD1B294B3B899C841DB59816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1A4866AE070F88DAC3DB7713D92473 /* Hokusai.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Hokusai/Hokusai-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hokusai/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hokusai/Hokusai.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Hokusai;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8DC2E8D493B81297AB232206C91F999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1C0BFF4EF94D5BA934093E588B7654 /* Pods-SwiftHokusai.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftHokusai/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftHokusai/Pods-SwiftHokusai.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftHokusai;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DE2A2B374845A052B843AC81DB359DD /* Build configuration list for PBXNativeTarget "Pods-SwiftHokusai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DC2E8D493B81297AB232206C91F999 /* Debug */,
+				02A5ACFB6DFD147BFD54F72558E13E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2503AE4FDF4B34E5E0782E230FD940B /* Build configuration list for PBXNativeTarget "Hokusai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389261B69DE328E3B3112F41D12A57C0 /* Debug */,
+				5A87667FFD1B294B3B899C841DB59816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
