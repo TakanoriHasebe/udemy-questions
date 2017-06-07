@@ -39,21 +39,26 @@
                                             <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y0c-09-alu">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YV7-bw-PVb">
                                                     <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="100" id="KMv-NW-Wub"/>
-                                                        <constraint firstAttribute="height" constant="100" id="TQB-8O-HxM"/>
+                                                        <constraint firstAttribute="width" constant="100" id="HDn-wB-SnP"/>
+                                                        <constraint firstAttribute="height" constant="100" id="xCo-9g-Or3"/>
                                                     </constraints>
-                                                </imageView>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="ob9-fT-RSE" appends="YES" id="c1U-u8-ukT"/>
+                                                        <outletCollection property="gestureRecognizers" destination="AoY-k8-p9B" appends="YES" id="HGz-3I-RiX"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </view>
+                                        <gestureRecognizers/>
                                         <constraints>
-                                            <constraint firstItem="Y0c-09-alu" firstAttribute="centerY" secondItem="wzI-A2-wIx" secondAttribute="centerY" id="Km3-LN-jRZ"/>
-                                            <constraint firstItem="Y0c-09-alu" firstAttribute="centerX" secondItem="wzI-A2-wIx" secondAttribute="centerX" id="Ugu-Cv-Y4t"/>
+                                            <constraint firstItem="YV7-bw-PVb" firstAttribute="centerY" secondItem="wzI-A2-wIx" secondAttribute="centerY" id="Is6-7q-JD0"/>
+                                            <constraint firstItem="YV7-bw-PVb" firstAttribute="centerX" secondItem="wzI-A2-wIx" secondAttribute="centerX" id="WOj-d7-TlR"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="myImage" destination="Y0c-09-alu" id="LkZ-2X-0PT"/>
+                                            <outlet property="MyButtonImages" destination="YV7-bw-PVb" id="gMD-aQ-fDf"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -72,7 +77,14 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ob9-fT-RSE">
+                    <connections>
+                        <action selector="btnTap:" destination="BYZ-38-t0r" id="BPd-Ui-Tt0"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="AoY-k8-p9B"/>
             </objects>
+            <point key="canvasLocation" x="-418" y="-72"/>
         </scene>
     </scenes>
 </document>

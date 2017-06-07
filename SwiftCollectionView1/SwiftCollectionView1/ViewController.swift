@@ -6,9 +6,11 @@
 //  Copyright © 2017年 Takanori.H. All rights reserved.
 //
 
+//
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
+ {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -27,14 +29,27 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return images.count
     }
     
+    @IBAction func btnTap(_ sender: UITapGestureRecognizer) {
+        
+        print("Tap")
+        
+        
+    }
+    
+
+    
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
         
         cell.layer.cornerRadius = 50
         
-        cell.myImage.image = UIImage(named: images[indexPath.row])
-        cell.myImage.contentMode = .scaleAspectFill
+        cell.MyButtonImages.setBackgroundImage(UIImage(named: images[indexPath.row])!, for: UIControlState.normal)
+        // cell.MyButtonImages.imageView?.image = UIImage(named: images[indexPath.row])
+        cell.MyButtonImages.contentMode = .scaleAspectFill
+        
+        // cell.myImage.image = UIImage(named: images[indexPath.row])
+        // cell.myImage.contentMode = .scaleAspectFill
         
         
         return cell

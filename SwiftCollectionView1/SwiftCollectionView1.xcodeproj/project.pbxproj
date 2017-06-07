@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F328FD721EE7C10C00AE5A13 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328FD711EE7C10C00AE5A13 /* ButtonCell.swift */; };
 		F3989AE91EE6883C00538E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3989AE81EE6883C00538E6C /* AppDelegate.swift */; };
 		F3989AEB1EE6883C00538E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3989AEA1EE6883C00538E6C /* ViewController.swift */; };
 		F3989AEE1EE6883C00538E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3989AEC1EE6883C00538E6C /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F328FD711EE7C10C00AE5A13 /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 		F3989AE51EE6883C00538E6C /* SwiftCollectionView1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCollectionView1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3989AE81EE6883C00538E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3989AEA1EE6883C00538E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F3989AE81EE6883C00538E6C /* AppDelegate.swift */,
 				F3989AEA1EE6883C00538E6C /* ViewController.swift */,
 				F3989AEC1EE6883C00538E6C /* Main.storyboard */,
+				F328FD711EE7C10C00AE5A13 /* ButtonCell.swift */,
 				F3989AFA1EE68A0100538E6C /* CustomCell.swift */,
 				F3989AEF1EE6883C00538E6C /* Assets.xcassets */,
 				F3989AF11EE6883C00538E6C /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				F3989AEB1EE6883C00538E6C /* ViewController.swift in Sources */,
 				F3989AFB1EE68A0100538E6C /* CustomCell.swift in Sources */,
 				F3989AE91EE6883C00538E6C /* AppDelegate.swift in Sources */,
+				F328FD721EE7C10C00AE5A13 /* ButtonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +310,7 @@
 				F3989AF91EE6883C00538E6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
