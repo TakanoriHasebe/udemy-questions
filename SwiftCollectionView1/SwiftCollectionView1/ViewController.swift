@@ -22,15 +22,48 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         collectionView.delegate = self
         collectionView.dataSource = self
         
+        /* Press */
+        let press = UITapGestureRecognizer(target: self, action: #selector(ViewController.handlePress(_:)))
+        press.delaysTouchesBegan = true
+        press.delegate = self
+        press.cancelsTouchesInView = false
+        self.collectionView.addGestureRecognizer(press)
+        
+        /* LongPress */
         let lpgr = UILongPressGestureRecognizer(target: self, action: #selector(ViewController.handleLongPress(_:)))
-        lpgr.minimumPressDuration = 0.5
-        // lpgr.accessibilityElementsHidden = true
+        lpgr.minimumPressDuration = 0.3
         lpgr.delaysTouchesBegan = true
         lpgr.delegate = self
         self.collectionView.addGestureRecognizer(lpgr)
-
+        
+        /* Temp */
+        self.collectionView.isUserInteractionEnabled = true
+        
     }
     
+    /* Tapの時の動作 */
+    func handlePress(_ gestureReconizer: UITapGestureRecognizer){
+        
+        
+        if gestureReconizer.state != UIGestureRecognizerState.ended {
+            return
+        }
+        
+        let p = gestureReconizer.location(in: self.collectionView)
+        let indexPath = self.collectionView.indexPathForItem(at: p)
+        
+        if let index = indexPath {
+            var cell = collectionView.cellForItem(at: index)
+            print("Tap")
+            print(index.row)
+        } else {
+            print("Tap")
+            print("Could not find index path")
+        }
+        
+    }
+    
+    /* LongPressの時の動作 */
     func handleLongPress(_ gestureReconizer: UILongPressGestureRecognizer) {
         if gestureReconizer.state != UIGestureRecognizerState.ended {
             return
@@ -42,7 +75,20 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         if let index = indexPath {
             var cell = collectionView.cellForItem(at: index)
             // do stuff with your cell, for example print the indexPath
-            print(index.row)
+            
+            if( gestureReconizer.state == UIGestureRecognizerState.began) {
+                print("Long Press Begin")
+                let transform = self.collectionView.transform
+                UICollectionView.animate(withDuration: 0.0, animations: {
+                    cell?.transform = CGAffineTransform(scaleX: 0.95, y: 0.95)
+                })
+                print(index.row)
+            }else if (gestureReconizer.state == UIGestureRecognizerState.ended) {
+                cell?.transform = CGAffineTransform.identity
+                print("Long Press Over")
+            }
+            
+            
         } else {
             print("Could not find index path")
         }

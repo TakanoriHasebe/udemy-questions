@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController, UIGestureRecognizerDelegate {
 
-    
     @IBOutlet weak var button: UIButton!
     
     /* Buttonに対してanimationをつける */
