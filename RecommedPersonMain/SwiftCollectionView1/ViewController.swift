@@ -60,11 +60,20 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 cell?.transform = CGAffineTransform(scaleX: 0.98, y: 0.98)
             })
 
+            /* PopUp 動作 */
+            let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "sbPopUpID") as! PopUpViewController
+            self.addChildViewController(popOverVC)
+            popOverVC.view.frame = self.view.frame
+            self.view.addSubview(popOverVC.view)
+            popOverVC.didMove(toParentViewController: self)
+            
             
             if (gestureReconizer.state == UIGestureRecognizerState.ended) {
+                
                 print("Tap")
                 print(index.row)
                 cell?.transform = CGAffineTransform.identity
+                
             }
             
             // print("Tap")

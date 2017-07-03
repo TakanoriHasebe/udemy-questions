@@ -14,6 +14,7 @@
 		F3989AF01EE6883C00538E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3989AEF1EE6883C00538E6C /* Assets.xcassets */; };
 		F3989AF31EE6883C00538E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3989AF11EE6883C00538E6C /* LaunchScreen.storyboard */; };
 		F3989AFB1EE68A0100538E6C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3989AFA1EE68A0100538E6C /* CustomCell.swift */; };
+		F3DCF71F1F09FF30000C0B99 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCF71E1F09FF30000C0B99 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F3989AF21EE6883C00538E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3989AF41EE6883C00538E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3989AFA1EE68A0100538E6C /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F3DCF71E1F09FF30000C0B99 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				F3989AE81EE6883C00538E6C /* AppDelegate.swift */,
 				F3989AEA1EE6883C00538E6C /* ViewController.swift */,
+				F3DCF71E1F09FF30000C0B99 /* PopUpViewController.swift */,
 				F3989AEC1EE6883C00538E6C /* Main.storyboard */,
 				F328FD711EE7C10C00AE5A13 /* ButtonCell.swift */,
 				F3989AFA1EE68A0100538E6C /* CustomCell.swift */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DCF71F1F09FF30000C0B99 /* PopUpViewController.swift in Sources */,
 				F3989AEB1EE6883C00538E6C /* ViewController.swift in Sources */,
 				F3989AFB1EE68A0100538E6C /* CustomCell.swift in Sources */,
 				F3989AE91EE6883C00538E6C /* AppDelegate.swift in Sources */,
