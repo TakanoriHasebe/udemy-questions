@@ -15,7 +15,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     @IBOutlet weak var collectionView: UICollectionView!
     
     /* ここをFirebaseから取得する */
-    var images = ["one", "two", "three", "four", "five", "six"]
+    var images = ["person0", "person1", "person2", "person3", "person4", "person5", "person6", "person7", "person8", "person9", "person10", "person11", "person12", "person13", "person14", "person15", "person16", "person17"]
+    var profileName: String! 
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,12 +61,17 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 cell?.transform = CGAffineTransform(scaleX: 0.98, y: 0.98)
             })
 
-            /* PopUp 動作 */
+            /* PopUp動作と画像の保存 */
+            profileName = images[index.row]
+            let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+            appDelegate.profileImageNumber = profileName
+            
             let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "sbPopUpID") as! PopUpViewController
             self.addChildViewController(popOverVC)
             popOverVC.view.frame = self.view.frame
             self.view.addSubview(popOverVC.view)
             popOverVC.didMove(toParentViewController: self)
+            /* PopUp動作と画像の保存 */
             
             
             if (gestureReconizer.state == UIGestureRecognizerState.ended) {
@@ -122,7 +128,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return images.count
     }
 
-    
+    /**************** Resizeで表示できないか確認 ****************/
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
@@ -131,7 +137,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         cell.MyButtonImages.setBackgroundImage(UIImage(named: images[indexPath.row])!, for: UIControlState.normal)
         // cell.MyButtonImages.imageView?.image = UIImage(named: images[indexPath.row])
-        cell.MyButtonImages.contentMode = .scaleAspectFill
+        cell.MyButtonImages.contentMode = .scaleToFill
         
         // cell.myImage.image = UIImage(named: images[indexPath.row])
         // cell.myImage.contentMode = .scaleAspectFill

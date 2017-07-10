@@ -13,8 +13,6 @@
  
  */
 
-
-
 import UIKit
 
 class PopUpViewController: UIViewController {
@@ -26,11 +24,18 @@ class PopUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        /******************** setting profileImage ********************/
+        /* 取得された画像の名前 */
+        var imageName: String!
+        
+        /* AppDelegateを通して、保存された名前を取得する */
+        let delegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+        imageName = delegate.profileImageNumber
+        
         /* 画面の横幅、縦幅を取得 */
         let screenWidth = CGFloat( UIScreen.main.bounds.size.width)
         let screenHeight = CGFloat(UIScreen.main.bounds.size.height)
-        // print(screenWidth)
-        // print(screenHeight)
         
         /* UIImageViewのサイズを設定する */
         let iWidth: CGFloat = screenWidth
@@ -38,21 +43,22 @@ class PopUpViewController: UIViewController {
         
         /* UIImageViewのx,yを設定する */
         let posX: CGFloat = (self.view.bounds.width - iWidth)/2
-        let posY: CGFloat = 0
+        let posY: CGFloat = self.view.bounds.height / 18
         
         /* UIImage Viewを設定 */
         profileImageView = UIImageView(frame: CGRect(x: posX, y: posY, width: iWidth, height: iHeight))
         
         /* UIImageを作成 */
-        let myImage: UIImage = UIImage(named: "one.png")!
+        let myImage: UIImage = UIImage(named: imageName+".png")!
         
         /* 画像をUIImageViewに設定 */
         profileImageView.image = myImage
         
-        profileImageView.contentMode = .scaleAspectFill
+        profileImageView.contentMode = .scaleAspectFit
         
         /* UIImageViewをViewに追加 */
         self.view.addSubview(profileImageView)
+        /******************** setting profileImage ********************/
         
  
         /* profile */

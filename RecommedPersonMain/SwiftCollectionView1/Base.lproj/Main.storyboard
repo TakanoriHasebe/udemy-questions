@@ -88,19 +88,7 @@
                     <view key="view" contentMode="scaleToFill" id="7Ee-tu-Lua">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BNx-am-4Yx">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="BNx-am-4Yx" secondAttribute="trailing" id="Dvs-Cy-vHh"/>
-                            <constraint firstItem="uQu-3C-0jh" firstAttribute="top" secondItem="BNx-am-4Yx" secondAttribute="bottom" id="Zdt-Sv-heT"/>
-                            <constraint firstItem="BNx-am-4Yx" firstAttribute="leading" secondItem="7Ee-tu-Lua" secondAttribute="leading" id="lDT-DE-cMS"/>
-                            <constraint firstItem="BNx-am-4Yx" firstAttribute="top" secondItem="7Ee-tu-Lua" secondAttribute="top" id="qW9-Hg-wGb"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ia-vB-OiS" userLabel="First Responder" sceneMemberID="firstResponder"/>
